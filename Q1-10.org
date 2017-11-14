@@ -1,0 +1,43 @@
+* Q1
+| symbol  | type           |
+|---------+----------------|
+| *       | opperator      |
+| 'hello' | value.string   |
+| 88.8    | negative float |
+| -       | opperator      |
+| /       | opperator      |
+| +       | opperator      |
+| 5       | value integer  |
+* Q2
+spam   -> variable
+'spam' -> string litteral.
+* Q3
+integer,floating point number and string.
+* Q4
+expressions are made out of subexpressions,
+till you keep single values,
+they all try to evaluate to a single value.
+* Q5
+An expression, 'expresses' a value,
+a statement states that something is going to happen?
+* Q6
+it will contain the integer value 20.
+* Q7
+They should contain: "spamspamspam".
+* Q8
+100 is an invalid variable name, because it starts with a number.
+* COMMENT Q9
+#+BEGIN_SRC python
+  str(value)   #To cast a string.
+  int(value)   #To cast an integer.
+  float(value) #To cast a float.
+#+END_SRC
+* Q10
+Because the values are non-congruent.
+* Q round()
+Some odd behaviour.
+it seems to round up to n decimals,
+hoewever when 0 it rounds up to an int,
+and when -1 it gives 10,
+when lower than -1 it gives a 0.0
+
